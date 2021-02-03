@@ -1,34 +1,32 @@
+import sys
 import heapq
 import collections
-V, E = map(int, input().split())
-target = int(input())
-graph = collections.defaultdict(dict)
+
+V, E = map(int, sys.stdin.readline().strip().split())
+K = int(sys.stdin.readline().strip())
+graph = collections.defaultdict(list)
 for _ in range(E):
-    u, v, w = map(int, input().split())
-    dic = {}
-    dic[v] = w
-    graph[u][v] = w
+    u, v, w = map(int, sys.stdin.readline().strip().split())
+    graph[u].append((w, v))
+
+distance = [sys.maxsize]*(V+1)
+heap = []
 print(graph)
+def dijkstra(start):
+    distance[start] = 0
+    heapq.heappush(heap, (0, start))
 
-def dijkstra(graph, first):
-    distance = {node:[100, first] for node in graph}
-    distance[first] = [0,1]
-    queue = []
-    heapq.heappush(queue, [distance[first], first])
-
-    while queue:
-        print(queue)
-        c_distance, c_node = heapq.heappop(queue)
-
-        if distance[c_node][0] < c_distance:
+    while heap:
+        print(heap)
+        current_distance, current_node = heapq.heappop(heap)
+        if distance[current_node] < current_distance:
             continue
-        for adj, weight in graph[c_node].items():
-            t_distance = c_distance + weight
+        for d, n in graph[current_node]:
+            next_distance = d + current_distance
+            if next_distance < distance[n]:
+                distance[n] = next_distance
+                heapq.heappush(heap, (next_distance, n))
 
-            if(t_distance < distance[adj][0]):
-                distance[adj] = [adj, t_distance]
-                heapq.heappush(queue, [t_distance, adj])
-
-    return distance
-
-print(dijkstra(graph, target))
+dijkstra(K)
+for i in range(1, V+1):
+    print("INF" if distance[i] == sys.maxsize else distance[i])
