@@ -11,9 +11,7 @@ def find(x):
     if x == parents[x]:
         return x
     else:
-        y = find(parents[x])
-        parents[x] = y
-        return y
+        return find(parents[x])
 
 
 def union(x, y):
