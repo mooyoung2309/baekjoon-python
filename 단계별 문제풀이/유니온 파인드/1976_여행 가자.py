@@ -17,7 +17,6 @@ def union(x,y):
 for y in range(1, cities+1):
     maps = list(map(int, input().split()))
     for x in range(1, len(maps)+1):
-      # 갈 수 있는 도시라면, 전부 y 기준으로 맞춘다.
         if maps[x-1] == 1:
             union(y, x)
 
