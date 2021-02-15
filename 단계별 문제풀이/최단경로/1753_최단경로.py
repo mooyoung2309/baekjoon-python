@@ -2,11 +2,12 @@ import sys
 import heapq
 import collections
 
-V, E = map(int, sys.stdin.readline().strip().split())
-K = int(sys.stdin.readline().strip())
+input = sys.stdin.readline
+V, E = map(int, input().split())
+K = int(input())
 graph = collections.defaultdict(list)
 for _ in range(E):
-    u, v, w = map(int, sys.stdin.readline().strip().split())
+    u, v, w = map(int, input().split())
     graph[u].append((w, v))
 
 distance = [sys.maxsize]*(V+1)
