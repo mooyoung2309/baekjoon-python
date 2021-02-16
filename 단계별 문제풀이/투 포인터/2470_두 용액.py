@@ -8,9 +8,7 @@ yongaeks.sort()
 sp = 0
 ep = len(yongaeks) - 1
 sum_yongaeks = []
-indx = -1
 while sp < ep:
-    indx += 1
     sum = yongaeks[sp] + yongaeks[ep]
     tmp = [yongaeks[sp],yongaeks[ep],abs(sum)]
     sum_yongaeks.append(tmp)
