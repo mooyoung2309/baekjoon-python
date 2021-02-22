@@ -7,30 +7,30 @@ dx = [0, 0, 1, -1]
 dy = [-1, 1, 0, 0]
 
 
-def bfs(start, end, graph, dp):
-    queue = collections.deque([start])
-    dp[start[0]][start[1]] = 1
+def bfs(graph):
+    queue = collections.deque()
+    queue.append([0,0,1])
+    dp = [[[0] * 2 for i in range(M)] for i in range(N)]
+    dp[0][0][1] = 1
     while queue:
-        node = queue.popleft()
-        x = node[0]
-        y = node[1]
+        x, y, w = queue.popleft()
+        if x == N - 1 and y == M - 1:
+            return dp[x][y][w]
         for i in range(4):
             a = x + dx[i]
             b = y + dy[i]
             if 0 <= a < N and 0 <= b < M:
-                if graph[x][y] == '1' and graph[a][b] == '1':
-                    break
-                if dp[a][b] == -1:
-                    dp[a][b] = dp[x][y] + 1
-                    queue.append([a, b])
-        for i in range(len(dp)):
-            print(dp[i])
-        print()
+                if graph[a][b] == 1 and w == 1:
+                    dp[a][b][0] = dp[x][y][1] + 1
+                    queue.append([a, b, 0])
+                elif graph[a][b] == 0 and dp[a][b][w] == 0:
+                    dp[a][b][w] = dp[x][y][w] + 1
+                    queue.append([a, b, w])
+    return -1
 
 N, M = map(int, input().split())
 graph = []
-dp = [[-1 for _ in range(M)] for __ in range(N)]
 for _ in range(N):
-    graph.append(list(str(input().strip())))
-bfs([0, 0], [N - 1, M - 1], graph, dp)
-print(dp[N - 1][M - 1])
+    graph.append(list(map(int, list(input().strip()))))
+
+print(bfs(graph))
