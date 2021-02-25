@@ -1,24 +1,28 @@
 import sys
+import collections
 
 input = sys.stdin.readline
-dx = [1, -1, 0, 0]
-dy = [0, 0, 1, -1]
+di = [1, -1, 0, 0]
+dj = [0, 0, 1, -1]
 
-def dfs(x, y):
-    if x == m-1 and y == n-1:
-        return 1
-    if c[x][y] != -1:
-        return c[x][y]
-    c[x][y] = 0
-    for i in range(4):
-        nx = x + dx[i]
-        ny = y + dy[i]
-        if 0 <= nx < m and 0 <= ny < n:
-            if a[nx][ny] < a[x][y]:
-                c[x][y] += dfs(nx, ny)
-    return c[x][y]
+def dfs(start):
+    stack = []
+    stack.append(start)
+    dp[0][0] = 1
+    while stack:
+        node = stack.pop()
+        ci, cj = node[0], node[1]
+        for k in range(4):
+            ni, nj = ci + di[k], cj + dj[k]
+            if 0 <= ni < M and 0 <= nj < N and graph[ni][nj] < graph[ci][cj]:
+                dp[ni][nj] += dp[ci][cj]
+                stack.append([ni, nj])
+        for i in range(len(dp)):
+            print(dp[i])
+        print(" ")
 
-m, n = map(int, input().split())
-a = [list(map(int, input().split())) for _ in range(m)]
-c = [[-1]*n for _ in range(m)]
-print(dfs(0, 0))
+
+M, N = map(int, input().split())
+graph = [list(map(int, input().split())) for _ in range(M)]
+dp = [[0 for _ in range(N)] for __ in range(M)]
+dfs([0,0])

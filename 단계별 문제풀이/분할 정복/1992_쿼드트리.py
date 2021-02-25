@@ -10,15 +10,15 @@ def apchuk(si, sj, d, result):
             if graph[i][j] != color:
                 isTrue = False
     if not isTrue:
-        # result.append('(')
+        result.append('(')
         d = d // 2
         apchuk(si, sj, d, result)
-        apchuk(si + d, sj, d, result)
         apchuk(si, sj + d, d, result)
+        apchuk(si + d, sj, d, result)
         apchuk(si + d, sj + d, d, result)
+        result.append(')')
     else:
         result.append(str(color))
-        # result.append(')')
         return
 
 
@@ -28,8 +28,6 @@ result = []
 for i in range(N):
     graph.append(list(map(int, list(input().strip()))))
 apchuk(0, 0, N, result)
-print(*result)
-# for i in range(N):
-#     print(graph[i])
 
-
+for i in range(len(result)):
+    print(result[i], end = "")
