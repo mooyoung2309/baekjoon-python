@@ -1,17 +1,24 @@
-import sys
 import heapq
+import sys
 
-input = sys.stdin.readline
-
-N = int(input())
-heap = []
-
-for _ in range(N):
-    x = int(input())
-    heap.append(x)
-    heap.sort()
-
-    if len(heap) % 2 == 0:
-        print(min(heap[len(heap) // 2 - 1], heap[len(heap) // 2]))
+# 중앙값 기준으로 작은 값 = left, 큰 값 = right
+left, right = [], []
+n = int(sys.stdin.readline())
+for _ in range(n):
+    num = int(sys.stdin.readline())
+    if len(left) == len(right):
+        # max_heap.
+        heapq.heappush(left, (-num, num))
     else:
-        print(heap[len(heap) // 2])
+        # min_heap.
+        heapq.heappush(right, (num, num))
+
+    # 오른쪽 값에 원소가 있으면서,
+    # 왼쪽 값이 오른쪽 값보다 큰 경우... left원소보다 right원소가 더 커야 하는 조건에 위배
+    if right and left[0][1] > right[0][1]:
+        left_value = heapq.heappop(left)[1]
+        right_value = heapq.heappop(right)[1]
+        heapq.heappush(right, (left_value, left_value))
+        heapq.heappush(left, (-right_value, right_value))
+
+    print(left[0][1])

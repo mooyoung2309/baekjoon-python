@@ -5,36 +5,23 @@ N = int(input())
 
 graph = [[0 for _ in range(3)] for __ in range(N)]
 dp = [[0 for _ in range(3)] for __ in range(N)]
-max_paint = [0 for _ in range(3)]
+dp = [[0 for _ in range(3)] for __ in range(N)]
+max_paint = []
 for i in range(N):
     graph[i] = list(map(int, input().split()))
 
-#0번집의 색은 R이다.
-dp[0][0] = graph[0][0]
-dp[0][1] = graph[0][0]
-dp[0][2] = graph[0][0]
-for i in range(1, N):
-    dp[i][0] = min(dp[i - 1][1], dp[i - 1][2]) + graph[i][0]
-    dp[i][1] = min(dp[i - 1][0], dp[i - 1][2]) + graph[i][1]
-    dp[i][2] = min(dp[i - 1][0], dp[i - 1][1]) + graph[i][2]
-max_paint[0] = max(dp[N-1][1], dp[N-1][2])
 
-dp[0][0] = graph[0][1]
-dp[0][1] = graph[0][1]
-dp[0][2] = graph[0][1]
-for i in range(1, N):
-    dp[i][0] = min(dp[i - 1][1], dp[i - 1][2]) + graph[i][0]
-    dp[i][1] = min(dp[i - 1][0], dp[i - 1][2]) + graph[i][1]
-    dp[i][2] = min(dp[i - 1][0], dp[i - 1][1]) + graph[i][2]
-max_paint[1] = max(dp[N-1][0], dp[N-1][2])
+for k in range(3):
+    dp[0][0] = sys.maxsize
+    dp[0][1] = sys.maxsize
+    dp[0][2] = sys.maxsize
+    dp[0][k] = graph[0][k]
+    for i in range(1, N):
+        dp[i][0] = min(dp[i-1][1], dp[i-1][2]) + graph[i][0]
+        dp[i][1] = min(dp[i - 1][0], dp[i - 1][2]) + graph[i][1]
+        dp[i][2] = min(dp[i - 1][0], dp[i - 1][1]) + graph[i][2]
+        if i == N - 1:
+            dp[i][k] = sys.maxsize
+            max_paint.append(min(dp[i]))
 
-dp[0][0] = graph[0][2]
-dp[0][1] = graph[0][2]
-dp[0][2] = graph[0][2]
-for i in range(1, N):
-    dp[i][0] = min(dp[i - 1][1], dp[i - 1][2]) + graph[i][0]
-    dp[i][1] = min(dp[i - 1][0], dp[i - 1][2]) + graph[i][1]
-    dp[i][2] = min(dp[i - 1][0], dp[i - 1][1]) + graph[i][2]
-max_paint[2] = max(dp[N-1][0], dp[N-1][1])
-
-print(max_paint)
+print(min(max_paint))
