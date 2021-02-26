@@ -15,7 +15,7 @@ heap = []
 print(graph)
 def dijkstra(start):
     distance[start] = 0
-    heapq.heappush(heap, (0, start))
+    heapq.heappush(heap, (distance[start], start))
 
     while heap:
         print(heap)
