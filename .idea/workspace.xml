@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d486ba4-16ff-4f63-99ae-958ad3ebf9dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/DFS와 BFS/1260.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-단계별 문제풀이/DFS와 BFS/1260.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론/14502_연구소.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론/14502_연구소.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,13 +41,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\PC\Documents\python-algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.14502_연구소">
+  <component name="RunManager" selected="Python.11000_강의실 배정">
     <configuration name="1012_유기농 배추" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,6 +63,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/단계별 문제풀이/DFS와 BFS/1012_유기농 배추.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="11000_강의실 배정" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A-알고리즘 분류/그리디 알고리즘" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A-알고리즘 분류/그리디 알고리즘/11000_강의실 배정.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1300_K번째 수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A-알고리즘 분류/이분 탐색" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\PC\Documents\python-algorithm\A-알고리즘 분류\이분 탐색\1300_K번째 수.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,6 +161,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.11000_강의실 배정" />
+        <item itemvalue="Python.1300_K번째 수" />
         <item itemvalue="Python.14502_연구소" />
         <item itemvalue="Python.2557_Hello World" />
         <item itemvalue="Python.1012_유기농 배추" />
@@ -133,7 +180,10 @@
       <workItem from="1614491266103" duration="941000" />
       <workItem from="1614518882544" duration="2050000" />
       <workItem from="1614524460863" duration="63000" />
-      <workItem from="1614567911805" duration="178000" />
+      <workItem from="1614567911805" duration="767000" />
+      <workItem from="1614568705674" duration="49000" />
+      <workItem from="1614568756180" duration="3668000" />
+      <workItem from="1614582573692" duration="4761000" />
     </task>
     <servers />
   </component>
@@ -153,7 +203,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_algorithm$14502_.coverage" NAME="14502_연구소 Coverage Results" MODIFIED="1614520463210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론" />
+    <SUITE FILE_PATH="coverage/python_algorithm$14502_.coverage" NAME="14502_연구소 Coverage Results" MODIFIED="1614570791347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론" />
+    <SUITE FILE_PATH="coverage/python_algorithm$K_.coverage" NAME="K번째 수 Coverage Results" MODIFIED="1614571767674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/이분 탐색" />
+    <SUITE FILE_PATH="coverage/python_algorithm$11000__.coverage" NAME="11000_강의실 배정 Coverage Results" MODIFIED="1614586433570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/그리디 알고리즘" />
     <SUITE FILE_PATH="coverage/python_algorithm$2557_Hello_World.coverage" NAME="2557_Hello World Coverage Results" MODIFIED="1614491322632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/단계별 문제풀이/입출력과 사칙연산" />
     <SUITE FILE_PATH="coverage/python_algorithm$1012__.coverage" NAME="1012_유기농 배추 Coverage Results" MODIFIED="1614491319084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/단계별 문제풀이/DFS와 BFS" />
   </component>
