@@ -26,7 +26,6 @@ def bfs(graph, root):
 def dfs(graph, root):
     visited = []
     stack = [root]
-
     while stack:
         n = stack.pop()
         if n not in visited:

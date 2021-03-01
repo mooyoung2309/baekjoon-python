@@ -1,6 +1,14 @@
 import sys
 
+def bfs():
+    stack = []
+    stack.append()
+    while stack:
+        node = stack.pop()
+
+
 def searchBf():
+
     return 0
 
 N, M = map(int, input().split())
