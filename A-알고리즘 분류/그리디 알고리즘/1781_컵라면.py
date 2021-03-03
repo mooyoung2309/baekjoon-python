@@ -1,21 +1,20 @@
 import sys
+import heapq
 
 input = sys.stdin.readline
 
 N = int(input())
-graph = []
+arr = []
 for _ in range(N):
-    a, b = map(int, input().split())
-    graph.append((a, b))
-graph.sort(key = lambda x : (x[0], -x[1]))
+    deadline, cupNoodle = map(int, input().split())
+    arr.append((deadline, cupNoodle))
 
-deadline = graph[0][0]
-total = graph[0][1]
-for i in range(1, N):
-    if deadline == graph[i][0]:
-        continue
-    else:
-        deadline = graph[i][0]
-        total += graph[i][1]
+arr.sort(key = lambda x : (x[0], -x[1]))
 
-print(total)
+heap = []
+for val in arr:
+    heapq.heappush(heap, val[1])
+    if val[0] < len(heap):
+        heapq.heappop(heap)
+
+print(sum(heap))

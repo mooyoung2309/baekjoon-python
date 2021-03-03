@@ -1,14 +1,20 @@
 import sys
-import collections
 input = sys.stdin.readline
 
 N = int(input())
 K = int(input())
+start, end = 1, K
 
-B = []
+while start <= end:
+    mid = (start + end) // 2
 
-for i in range(N):
-    for j in range(N):
-        B.append((i + 1) * (j + 1))
-B.sort()
-print(B[K - 1])
+    temp = 0
+    for i in range(1, N + 1):
+        temp += min(mid // i, N)
+
+    if temp >= K:
+        answer = mid
+        end = mid - 1
+    else:
+        start = mid + 1
+print(answer)
