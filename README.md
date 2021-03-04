@@ -1,2 +1,2 @@
 # python-algorithm
-BOJ 문제 답을 모았습니다.
+BOJ 문제 풀면서 정리해봤습니다.
