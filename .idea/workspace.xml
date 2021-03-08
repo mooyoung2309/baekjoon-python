@@ -2,8 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d486ba4-16ff-4f63-99ae-958ad3ebf9dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론/1967_트리의 지름.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A-알고리즘 분류/그리디 알고리즘/16953_A에서B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A-알고리즘 분류/다이나믹 프로그래밍/9465_스티커.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A-알고리즘 분류/백트래킹/15654_N과 M (5).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A-알고리즘 분류/백트래킹/15657_N과 M (8).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A-알고리즘 분류/백트래킹/15663_N과 M (9).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A-알고리즘 분류/분할정복/1629_곱셈.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-알고리즘 분류/에라토스테네스의 체/1016_제곱 ㄴㄴ수.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/에라토스테네스의 체/1016_제곱 ㄴㄴ수.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/DFS와 BFS/1012_유기농 배추.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론/1012_유기농 배추.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/DFS와 BFS/1260.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론/1260.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/DFS와 BFS/1697_숨바꼭질.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론/1697_숨바꼭질.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/DFS와 BFS/1707_이분 그래프.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론/1707_이분 그래프.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/DFS와 BFS/2178_미로 탐색.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론/2178_미로 탐색.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/DFS와 BFS/2206_벽 부수고 이동하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론/2206_벽 부수고 이동하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/DFS와 BFS/2606_바이러스.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론/2606_바이러스.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/DFS와 BFS/2667_단지번호붙이기.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론/2667_단지번호붙이기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/DFS와 BFS/7562_나이트의 이동.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론/7562_나이트의 이동.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/DFS와 BFS/7569_토마토 3차원.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론/7569_토마토 3차원.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/DFS와 BFS/7576_토마토 2차원.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론/7576_토마토 2차원.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/그리디 알고리즘/11047_동전0.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/그리디 알고리즘/11047_동전0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/그리디 알고리즘/11399_ATM.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/그리디 알고리즘/11399_ATM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/그리디 알고리즘/13305_주유소.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/그리디 알고리즘/13305_주유소.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/그리디 알고리즘/1541_잃어버린 괄호.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/그리디 알고리즘/1541_잃어버린 괄호.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/그리디 알고리즘/1931_회의실 배정.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/그리디 알고리즘/1931_회의실 배정.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/백트래킹/14888_연산자 끼워넣기.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/백트래킹/14888_연산자 끼워넣기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/백트래킹/15649_N과 M (1).py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/백트래킹/15649_N과 M (1).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/백트래킹/15650_N과 M (2).py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/백트래킹/15650_N과 M (2).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/백트래킹/15651_N과 M (3).py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/백트래킹/15651_N과 M (3).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/백트래킹/9663_N-Queen.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/백트래킹/9663_N-Queen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론/1167_트리의 지름.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론/1167_트리의 지름.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +73,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\Documents\python-algorithm\A-알고리즘 분류\그래프 이론" />
+      <recent name="C:\Users\PC\Documents\python-algorithm\A-알고리즘 분류\그리디 알고리즘" />
+      <recent name="C:\Users\PC\Documents\python-algorithm\A-알고리즘 분류\백트래킹" />
       <recent name="C:\Users\PC\Documents\python-algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1167_트리의 지름">
-    <configuration name="1016_제곱 ㄴㄴ수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.2011_암호코드">
+    <configuration name="15657_N과 M (8)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,12 +88,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A-알고리즘 분류/에라토스테네스의 체" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A-알고리즘 분류/백트래킹" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A-알고리즘 분류/에라토스테네스의 체/1016_제곱 ㄴㄴ수.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A-알고리즘 분류/백트래킹/15657_N과 M (8).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -71,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10250_ACM 호텔" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="15663_N과 M (9)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,12 +110,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A-알고리즘 분류/수학" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A-알고리즘 분류/백트래킹" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A-알고리즘 분류/수학/10250_ACM 호텔.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A-알고리즘 분류/백트래킹/15663_N과 M (9).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10814_나이순 정렬" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="16953_A에서B" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,12 +132,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A-알고리즘 분류/정렬" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A-알고리즘 분류/그리디 알고리즘" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A-알고리즘 분류/정렬/10814_나이순 정렬.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A-알고리즘 분류/그리디 알고리즘/16953_A에서B.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1167_트리의 지름" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1967_트리의 지름" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,7 +159,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론/1167_트리의 지름.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론/1967_트리의 지름.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +168,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1764_듣보잡" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2011_암호코드" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,12 +176,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A-알고리즘 분류/이분 탐색" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A-알고리즘 분류/다이나믹 프로그래밍" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A-알고리즘 분류/이분 탐색/1764_듣보잡.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A-알고리즘 분류/다이나믹 프로그래밍/2011_암호코드.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1167_트리의 지름" />
-        <item itemvalue="Python.1016_제곱 ㄴㄴ수" />
-        <item itemvalue="Python.10814_나이순 정렬" />
-        <item itemvalue="Python.1764_듣보잡" />
-        <item itemvalue="Python.10250_ACM 호텔" />
+        <item itemvalue="Python.2011_암호코드" />
+        <item itemvalue="Python.16953_A에서B" />
+        <item itemvalue="Python.15663_N과 M (9)" />
+        <item itemvalue="Python.15657_N과 M (8)" />
+        <item itemvalue="Python.1967_트리의 지름" />
       </list>
     </recent_temporary>
   </component>
@@ -198,6 +229,11 @@
       <workItem from="1614777361386" duration="150000" />
       <workItem from="1614779038037" duration="631000" />
       <workItem from="1614829512750" duration="5594000" />
+      <workItem from="1614950631650" duration="2988000" />
+      <workItem from="1615169361833" duration="3525000" />
+      <workItem from="1615175523582" duration="5564000" />
+      <workItem from="1615185204849" duration="3275000" />
+      <workItem from="1615191599562" duration="1756000" />
     </task>
     <servers />
   </component>
@@ -228,13 +264,16 @@
     <SUITE FILE_PATH="coverage/python_algorithm$1781_.coverage" NAME="1781_컵라면 Coverage Results" MODIFIED="1614653766138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/그리디 알고리즘" />
     <SUITE FILE_PATH="coverage/python_algorithm$2739_.coverage" NAME="2739_구구단 Coverage Results" MODIFIED="1614669103837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B-에센셜/CLASS 1" />
     <SUITE FILE_PATH="coverage/python_algorithm$1330___.coverage" NAME="1330_두 수 비교하기 Coverage Results" MODIFIED="1614668004210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B-에센셜/CLASS 1" />
+    <SUITE FILE_PATH="coverage/python_algorithm$15663_N_M__9_.coverage" NAME="15663_N과 M (9) Coverage Results" MODIFIED="1615180027282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/백트래킹" />
     <SUITE FILE_PATH="coverage/python_algorithm$1181__.coverage" NAME="1181_단어 정렬 Coverage Results" MODIFIED="1614749907060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/정렬" />
     <SUITE FILE_PATH="coverage/python_algorithm$2562_.coverage" NAME="2562_최댓값 Coverage Results" MODIFIED="1614668650316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B-에센셜/CLASS 1" />
     <SUITE FILE_PATH="coverage/python_algorithm$1016__.coverage" NAME="1016_제곱 ㄴㄴ수 Coverage Results" MODIFIED="1614830475917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/에라토스테네스의 체" />
     <SUITE FILE_PATH="coverage/python_algorithm$1339__.coverage" NAME="1339_단어 수학 Coverage Results" MODIFIED="1614664519923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/그리디 알고리즘" />
     <SUITE FILE_PATH="coverage/python_algorithm$10818___.coverage" NAME="10818_최소, 최대 Coverage Results" MODIFIED="1614744238922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B-에센셜/CLASS 1" />
     <SUITE FILE_PATH="coverage/python_algorithm$11720__.coverage" NAME="11720_숫자의 합 Coverage Results" MODIFIED="1614748969104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B-에센셜/CLASS 1" />
+    <SUITE FILE_PATH="coverage/python_algorithm$N_M__5_.coverage" NAME="N과 M (5) Coverage Results" MODIFIED="1614953008474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/백트래킹" />
     <SUITE FILE_PATH="coverage/python_algorithm$1012__.coverage" NAME="1012_유기농 배추 Coverage Results" MODIFIED="1614491319084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/단계별 문제풀이/DFS와 BFS" />
+    <SUITE FILE_PATH="coverage/python_algorithm$2011_.coverage" NAME="2011_암호코드 Coverage Results" MODIFIED="1615194291729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/다이나믹 프로그래밍" />
     <SUITE FILE_PATH="coverage/python_algorithm$1300_K___1_.coverage" NAME="1300_K번째 수 (1) Coverage Results" MODIFIED="1614657571883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/이분 탐색" />
     <SUITE FILE_PATH="coverage/python_algorithm$1436__.coverage" NAME="1436_영화감독 숌 Coverage Results" MODIFIED="1614750631949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/브루트포스" />
     <SUITE FILE_PATH="coverage/python_algorithm$1259_.coverage" NAME="1259_팰린드롬수 Coverage Results" MODIFIED="1614750294334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/문자열" />
@@ -243,6 +282,7 @@
     <SUITE FILE_PATH="coverage/python_algorithm$14502_.coverage" NAME="14502_연구소 Coverage Results" MODIFIED="1614570791347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론" />
     <SUITE FILE_PATH="coverage/python_algorithm$10951_A_B___4.coverage" NAME="10951_A+B - 4 Coverage Results" MODIFIED="1614744810543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B-에센셜/CLASS 1" />
     <SUITE FILE_PATH="coverage/python_algorithm$2751___2.coverage" NAME="2751_수 정렬하기 2 Coverage Results" MODIFIED="1614752001264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/정렬" />
+    <SUITE FILE_PATH="coverage/python_algorithm$1629_.coverage" NAME="1629_곱셈 Coverage Results" MODIFIED="1615173084808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/분할정복" />
     <SUITE FILE_PATH="coverage/python_algorithm$11654__.coverage" NAME="11654_아스키 코드 Coverage Results" MODIFIED="1614745337671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B-에센셜/CLASS 1" />
     <SUITE FILE_PATH="coverage/python_algorithm$9372__.coverage" NAME="9372_상근이의 여행 Coverage Results" MODIFIED="1614667049129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론" />
     <SUITE FILE_PATH="coverage/python_algorithm$2675__.coverage" NAME="2675_문자열 반복 Coverage Results" MODIFIED="1614668655206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B-에센셜/CLASS 1" />
@@ -252,9 +292,12 @@
     <SUITE FILE_PATH="coverage/python_algorithm$2438_____1.coverage" NAME="2438_별 찍기 - 1 Coverage Results" MODIFIED="1614668356601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B-에센셜/CLASS 1" />
     <SUITE FILE_PATH="coverage/python_algorithm$2920_.coverage" NAME="2920_음계 Coverage Results" MODIFIED="1614744135347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B-에센셜/CLASS 1" />
     <SUITE FILE_PATH="coverage/python_algorithm$10869_.coverage" NAME="10869_사칙연산 Coverage Results" MODIFIED="1614744440290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B-에센셜/CLASS 1" />
+    <SUITE FILE_PATH="coverage/python_algorithm$1967__.coverage" NAME="1967_트리의 지름 Coverage Results" MODIFIED="1615176658843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론" />
     <SUITE FILE_PATH="coverage/python_algorithm$1085__.coverage" NAME="1085_직사각형에서 탈출 Coverage Results" MODIFIED="1614749106156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/수학" />
     <SUITE FILE_PATH="coverage/python_algorithm$10250_ACM_.coverage" NAME="10250_ACM 호텔 Coverage Results" MODIFIED="1614763557782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/수학" />
-    <SUITE FILE_PATH="coverage/python_algorithm$1167__.coverage" NAME="1167_트리의 지름 Coverage Results" MODIFIED="1614835142565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론" />
+    <SUITE FILE_PATH="coverage/python_algorithm$1167__.coverage" NAME="1167_트리의 지름 Coverage Results" MODIFIED="1615172557680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/그래프 이론" />
+    <SUITE FILE_PATH="coverage/python_algorithm$16953_AB.coverage" NAME="16953_A에서B Coverage Results" MODIFIED="1615181039509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/그리디 알고리즘" />
+    <SUITE FILE_PATH="coverage/python_algorithm$15657_N_M__8_.coverage" NAME="15657_N과 M (8) Coverage Results" MODIFIED="1615178860582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/백트래킹" />
     <SUITE FILE_PATH="coverage/python_algorithm$2493_.coverage" NAME="2493_탑 Coverage Results" MODIFIED="1614592027767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/자료구조" />
     <SUITE FILE_PATH="coverage/python_algorithm$1978__.coverage" NAME="1978_소수 찾기 Coverage Results" MODIFIED="1614750874276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/수학" />
   </component>

@@ -1,34 +1,41 @@
 import sys
 import collections
-import copy
+import heapq
 
-def bfs(queue):
-    global max_sum
+input = sys.stdin.readline
 
-    while queue:
-        node, visited, sum = queue.popleft()
-        for val in graph[node]:
-            if visited[val[0]]:
-                visited_tmp = copy.deepcopy(visited)
-                visited_tmp[val[0]] = False
-                queue.append((val[0], visited_tmp, sum + val[1]))
-                max_sum = max(max_sum, sum + val[1])
+
+def dijkstra(start):
+    heap = []
+    heapq.heappush(heap, (0, start))
+    distance = [sys.maxsize for _ in range(V + 1)]
+    distance[start] = 0
+
+    while heap:
+        cur_dis, cur_node = heapq.heappop(heap)
+        if distance[cur_node] < cur_dis:
+            continue
+        for n, d in graph[cur_node]:
+            next_dis = d + cur_dis
+            if next_dis < distance[n]:
+                distance[n] = next_dis
+                heapq.heappush(heap, (next_dis, n))
+
+    return distance
+
 
 V = int(input())
 graph = collections.defaultdict(list)
-queue = collections.deque()
+
 for i in range(1, V + 1):
     tmp = list(map(int, input().split()))
-    cnt = 0
-    for j in range(1, len(tmp) -1, 2):
-        graph[i].append((tmp[j], tmp[j+1]))
-        cnt += 1
-    if cnt <= 1:
-        visited_tmp = [True] * (V+1)
-        visited_tmp[i] = False
-        queue.append((i, visited_tmp, 0))
+    for j in range(1, len(tmp), 2):
+        if tmp[j] == -1:
+            break
+        graph[tmp[0]].append((tmp[j], tmp[j + 1]))
 
-max_sum = 0
-
-bfs(queue)
-print(max_sum)
+dis1 = dijkstra(1)
+max_v1 = dis1.index(max(dis1[1:]))
+dis2 = dijkstra(max_v1)
+max_dis2 = max(dis2[1:])
+print(max_dis2)
