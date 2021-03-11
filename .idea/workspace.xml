@@ -3,23 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4d486ba4-16ff-4f63-99ae-958ad3ebf9dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/다이나믹 프로그래밍/10844_쉬운 계단 수.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/다이나믹 프로그래밍/10844_쉬운 계단 수.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/다이나믹 프로그래밍/11053_가장 긴 증가하는 부분 수열.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/다이나믹 프로그래밍/11053_가장 긴 증가하는 부분 수열.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/다이나믹 프로그래밍/11066_파일 합치기.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/다이나믹 프로그래밍/11066_파일 합치기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/다이나믹 프로그래밍/1149_RGB거리.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/다이나믹 프로그래밍/1149_RGB거리.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/다이나믹 프로그래밍/12852_1로 만들기 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/다이나믹 프로그래밍/12852_1로 만들기 2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/다이나믹 프로그래밍/12865_평범한 배낭.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/다이나믹 프로그래밍/12865_평범한 배낭.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/다이나믹 프로그래밍/1463_1로 만들기.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/다이나믹 프로그래밍/1463_1로 만들기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/다이나믹 프로그래밍/1520_내리막길.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/다이나믹 프로그래밍/1520_내리막길.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/다이나믹 프로그래밍/17404_RGB 거리 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/다이나믹 프로그래밍/17404_RGB 거리 2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/다이나믹 프로그래밍/1912_연속합.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/다이나믹 프로그래밍/1912_연속합.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/다이나믹 프로그래밍/1932_정수 삼각형.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/다이나믹 프로그래밍/1932_정수 삼각형.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/다이나믹 프로그래밍/2156_포도주 시식.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/다이나믹 프로그래밍/2156_포도주 시식.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/다이나믹 프로그래밍/2293_동전1.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/다이나믹 프로그래밍/2293_동전1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/다이나믹 프로그래밍/2579_계단 오르기.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/다이나믹 프로그래밍/2579_계단 오르기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/다이나믹 프로그래밍/2629_양팔저울.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/다이나믹 프로그래밍/2629_양팔저울.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/다이나믹 프로그래밍/2631_줄세우기.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/다이나믹 프로그래밍/2631_줄세우기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-단계별 문제풀이/스위핑/2170_선 긋기.py" beforeDir="false" afterPath="$PROJECT_DIR$/A-알고리즘 분류/스위핑/2170_선 긋기.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +51,8 @@
       <recent name="C:\Users\PC\Documents\python-algorithm\A-알고리즘 분류\그리디 알고리즘" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2056_작업">
-    <configuration name="1005_ACM Craft" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.1202_보석 도둑">
+    <configuration name="1202_보석 도둑" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,12 +60,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A-알고리즘 분류/다이나믹 프로그래밍" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A-알고리즘 분류/그리디 알고리즘" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\PC\Documents\python-algorithm\A-알고리즘 분류\위상정렬\1005_ACM Craft.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A-알고리즘 분류/그리디 알고리즘/1202_보석 도둑.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1202_보석 도둑" />
         <item itemvalue="Python.2056_작업" />
         <item itemvalue="Python.2623_음악프로그램" />
         <item itemvalue="Python.1766_문제집" />
         <item itemvalue="Python.1516_게임 개발" />
-        <item itemvalue="Python.1005_ACM Craft" />
       </list>
     </recent_temporary>
   </component>
@@ -233,6 +216,9 @@
       <workItem from="1615353979661" duration="3586000" />
       <workItem from="1615361327485" duration="3892000" />
       <workItem from="1615365328783" duration="428000" />
+      <workItem from="1615380519675" duration="2908000" />
+      <workItem from="1615433605221" duration="1344000" />
+      <workItem from="1615451974866" duration="1726000" />
     </task>
     <servers />
   </component>
@@ -275,6 +261,7 @@
     <SUITE FILE_PATH="coverage/python_algorithm$2798_.coverage" NAME="2798_블랙잭 Coverage Results" MODIFIED="1614761925363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/브루트포스" />
     <SUITE FILE_PATH="coverage/python_algorithm$1008_AB.coverage" NAME="1008_A나누기B Coverage Results" MODIFIED="1614667879900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B-에센셜/CLASS 1" />
     <SUITE FILE_PATH="coverage/python_algorithm$10952_A_B___5.coverage" NAME="10952_A+B - 5 Coverage Results" MODIFIED="1614744816409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B-에센셜/CLASS 1" />
+    <SUITE FILE_PATH="coverage/python_algorithm$1202__.coverage" NAME="1202_보석 도둑 Coverage Results" MODIFIED="1615385124910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/그리디 알고리즘" />
     <SUITE FILE_PATH="coverage/python_algorithm$1781_.coverage" NAME="1781_컵라면 Coverage Results" MODIFIED="1614653766138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/그리디 알고리즘" />
     <SUITE FILE_PATH="coverage/python_algorithm$1330___.coverage" NAME="1330_두 수 비교하기 Coverage Results" MODIFIED="1614668004210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B-에센셜/CLASS 1" />
     <SUITE FILE_PATH="coverage/python_algorithm$15663_N_M__9_.coverage" NAME="15663_N과 M (9) Coverage Results" MODIFIED="1615180027282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A-알고리즘 분류/백트래킹" />
